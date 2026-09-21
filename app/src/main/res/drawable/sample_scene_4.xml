@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="400dp"
+    android:height="225dp"
+    android:viewportWidth="400"
+    android:viewportHeight="225">
+    <!-- Scene 4: Moody sunset / landscape -->
+    <path android:pathData="M0,0h400v225h-400z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="200"
+                android:startY="0"
+                android:endX="200"
+                android:endY="225"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#4A044E" />
+                <item android:offset="0.4" android:color="#9D174D" />
+                <item android:offset="0.7" android:color="#BE185D" />
+                <item android:offset="1.0" android:color="#1F1329" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Giant Sun -->
+    <path android:pathData="M200,120m-50,0a50,50 0 1,1 100,0a50,50 0 1,1 -100,0" android:fillColor="#FDE047" />
+    <!-- Distant mountain ridge -->
+    <path android:pathData="M0,170 L70,130 L150,165 L240,125 L320,155 L400,130 L400,225 L0,225 Z" android:fillColor="#3B0764" />
+    <path android:pathData="M0,185 L90,160 L180,190 L270,160 L350,180 L400,165 L400,225 L0,225 Z" android:fillColor="#18022B" />
+</vector>

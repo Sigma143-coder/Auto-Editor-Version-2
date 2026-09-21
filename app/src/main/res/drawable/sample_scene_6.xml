@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="400dp"
+    android:height="225dp"
+    android:viewportWidth="400"
+    android:viewportHeight="225">
+    <!-- Scene 6: Dramatic spotlight ending / conclusion -->
+    <path android:pathData="M0,0h400v225h-400z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="200"
+                android:startY="0"
+                android:endX="200"
+                android:endY="225"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#0F172A" />
+                <item android:offset="1.0" android:color="#030712" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Spotlight beam -->
+    <path android:pathData="M180,0 L220,0 L290,225 L110,225 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="200"
+                android:startY="0"
+                android:endX="200"
+                android:endY="225"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#55A855F7" />
+                <item android:offset="0.8" android:color="#2038BDF8" />
+                <item android:offset="1.0" android:color="#00000000" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Silhouette in spotlight -->
+    <path android:pathData="M200,120m-14,0a14,14 0 1,1 28,0a14,14 0 1,1 -28,0" android:fillColor="#F8FAFC" />
+    <path android:pathData="M180,140 L220,140 L230,225 L170,225 Z" android:fillColor="#F8FAFC" />
+</vector>

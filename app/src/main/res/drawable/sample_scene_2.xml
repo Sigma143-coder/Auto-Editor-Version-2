@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="400dp"
+    android:height="225dp"
+    android:viewportWidth="400"
+    android:viewportHeight="225">
+    <!-- Scene 2: City skyline night with neon purple sky -->
+    <path android:pathData="M0,0h400v225h-400z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="200"
+                android:startY="0"
+                android:endX="200"
+                android:endY="225"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#311042" />
+                <item android:offset="0.6" android:color="#1A102F" />
+                <item android:offset="1.0" android:color="#0A0612" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Moon -->
+    <path android:pathData="M320,50m-20,0a20,20 0 1,1 40,0a20,20 0 1,1 -40,0" android:fillColor="#FEF08A" />
+    <!-- City Buildings Silhouette -->
+    <path android:pathData="M10,225 L10,110 L50,110 L50,225 Z" android:fillColor="#130D24" />
+    <path android:pathData="M45,225 L45,80 L110,80 L110,225 Z" android:fillColor="#1A1230" />
+    <path android:pathData="M105,225 L105,130 L160,130 L160,225 Z" android:fillColor="#150E26" />
+    <path android:pathData="M150,225 L150,60 L220,60 L220,225 Z" android:fillColor="#22173D" />
+    <path android:pathData="M210,225 L210,100 L270,100 L270,225 Z" android:fillColor="#181129" />
+    <path android:pathData="M260,225 L260,120 L330,120 L330,225 Z" android:fillColor="#1D1336" />
+    <path android:pathData="M320,225 L320,90 L390,90 L390,225 Z" android:fillColor="#160E28" />
+    <!-- Window dots -->
+    <path android:pathData="M165,80h4v6h-4z M180,80h4v6h-4z M195,80h4v6h-4z M170,100h4v6h-4z M190,100h4v6h-4z M60,100h4v6h-4z M85,110h4v6h-4z M280,140h4v6h-4z M300,150h4v6h-4z M340,110h4v6h-4z M360,120h4v6h-4z" android:fillColor="#38BDF8" />
+</vector>

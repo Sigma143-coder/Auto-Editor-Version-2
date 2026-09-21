@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="400dp"
+    android:height="225dp"
+    android:viewportWidth="400"
+    android:viewportHeight="225">
+    <!-- Scene 1: Night room desk with lamp -->
+    <path android:pathData="M0,0h400v225h-400z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="200"
+                android:startY="0"
+                android:endX="200"
+                android:endY="225"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#1A202C" />
+                <item android:offset="1.0" android:color="#0D1117" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Window with city grid -->
+    <path android:pathData="M30,30h140v90h-140z" android:fillColor="#1E293B" />
+    <path android:pathData="M40,40h20v70h-20z M70,40h25v70h-25z M105,40h15v70h-15z M130,40h30v70h-30z" android:fillColor="#0F172A" />
+    <!-- Window glowing lights -->
+    <path android:pathData="M44,45h3v4h-3z M75,60h4v5h-4z M110,80h3v4h-3z M140,50h4v4h-4z M78,90h4v4h-4z" android:fillColor="#FBBF24" />
+    <!-- Desk surface -->
+    <path android:pathData="M0,150h400v75h-400z" android:fillColor="#111827" />
+    <!-- Desk lamp glow -->
+    <path android:pathData="M290,95m-45,0a45,45 0 1,1 90,0a45,45 0 1,1 -90,0">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="290"
+                android:startY="50"
+                android:endX="290"
+                android:endY="140"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#4DFDE047" />
+                <item android:offset="1.0" android:color="#00000000" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Lamp head and arm -->
+    <path android:pathData="M275,100 L305,100 L315,115 L265,115 Z" android:fillColor="#E2E8F0" />
+    <path android:pathData="M290,115 L290,155 L310,155" android:strokeWidth="4" android:strokeColor="#94A3B8" />
+    <!-- Character silhouette sitting at desk (matching screenshot anime illustration) -->
+    <path android:pathData="M160,120 Q180,105 200,120 L210,170 L150,170 Z" android:fillColor="#1E293B" />
+    <path android:pathData="M170,105 m-12,0 a12,12 0 1,1 24,0 a12,12 0 1,1 -24,0" android:fillColor="#334155" />
+    <path android:pathData="M155,100 Q170,85 185,100 Z" android:fillColor="#0F172A" />
+</vector>

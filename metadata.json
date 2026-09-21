@@ -1,0 +1,6 @@
+{
+  "name": "AutoStory Editor",
+  "description": "Create narrated videos automatically by synchronizing timestamped images and clips to a voiceover timeline, with Ken Burns zoom, transitions, captions, audio FX, and MP4 export.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

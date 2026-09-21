@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="400dp"
+    android:height="225dp"
+    android:viewportWidth="400"
+    android:viewportHeight="225">
+    <!-- Scene 5: Neon Street Scene with rain reflection -->
+    <path android:pathData="M0,0h400v225h-400z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="0"
+                android:startY="0"
+                android:endX="0"
+                android:endY="225"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#020617" />
+                <item android:offset="0.6" android:color="#0F172A" />
+                <item android:offset="1.0" android:color="#1E1B4B" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Street lights and signboards -->
+    <path android:pathData="M40,50h30v80h-30z" android:fillColor="#1E293B" />
+    <path android:pathData="M45,60h20v60h-20z" android:fillColor="#F43F5E" />
+    <path android:pathData="M330,40h35v95h-35z" android:fillColor="#1E293B" />
+    <path android:pathData="M335,50h25v75h-25z" android:fillColor="#06B6D4" />
+    <!-- Wet pavement reflections -->
+    <path android:pathData="M30,170h60v12h-60z" android:fillColor="#33F43F5E" />
+    <path android:pathData="M310,165h70v15h-70z" android:fillColor="#3306B6D4" />
+    <!-- Street line -->
+    <path android:pathData="M0,150 L400,150" android:strokeWidth="3" android:strokeColor="#334155" />
+</vector>

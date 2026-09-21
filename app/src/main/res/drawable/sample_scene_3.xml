@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="400dp"
+    android:height="225dp"
+    android:viewportWidth="400"
+    android:viewportHeight="225">
+    <!-- Scene 3: Cyberpunk / Document terminal screen -->
+    <path android:pathData="M0,0h400v225h-400z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="0"
+                android:startY="0"
+                android:endX="400"
+                android:endY="225"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#0F172A" />
+                <item android:offset="1.0" android:color="#020617" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Code terminal window -->
+    <path android:pathData="M30,25h340v175h-340z" android:fillColor="#0B0F19" android:strokeWidth="1.5" android:strokeColor="#1E293B" />
+    <path android:pathData="M30,25h340v25h-340z" android:fillColor="#1E293B" />
+    <!-- Window buttons -->
+    <path android:pathData="M45,37m-4,0a4,4 0 1,1 8,0a4,4 0 1,1 -8,0" android:fillColor="#EF4444" />
+    <path android:pathData="M60,37m-4,0a4,4 0 1,1 8,0a4,4 0 1,1 -8,0" android:fillColor="#EAB308" />
+    <path android:pathData="M75,37m-4,0a4,4 0 1,1 8,0a4,4 0 1,1 -8,0" android:fillColor="#22C55E" />
+    <!-- Code lines -->
+    <path android:pathData="M50,70h120v6h-120z" android:fillColor="#818CF8" />
+    <path android:pathData="M180,70h60v6h-60z" android:fillColor="#38BDF8" />
+    <path android:pathData="M70,90h80v6h-80z" android:fillColor="#F472B6" />
+    <path android:pathData="M160,90h110v6h-110z" android:fillColor="#4ADE80" />
+    <path android:pathData="M70,110h140v6h-140z" android:fillColor="#CBD5E1" />
+    <path android:pathData="M50,130h90v6h-90z" android:fillColor="#818CF8" />
+    <path android:pathData="M150,130h160v6h-160z" android:fillColor="#FBBF24" />
+    <path android:pathData="M50,160h100v6h-100z" android:fillColor="#22D3EE" />
+</vector>
